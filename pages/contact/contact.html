@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grim Tech</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Link Google Fonts for custom typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#home">Grim Tech</a>
+            </div>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#privacy">Privacy Policy</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#career">Career</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section">
+            <div class="container">
+                <h1>Welcome to Grim Tech</h1>
+                <p>Discover innovation and excellence in technology.</p>
+                <a href="#services" class="btn">Explore Services</a>
+            </div>
+        </section>
+
+        <section id="privacy" class="section">
+            <div class="container">
+                <h2>Privacy Policy</h2>
+                <p>Your privacy is important to us. Read our policy below.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>If you have any questions, please feel free to contact us.</p>
+                <form id="contact-form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>Learn more about Grim Tech and our mission.</p>
+            </div>
+        </section>
+
+        <section id="services" class="section">
+            <div class="container">
+                <h2>Our Services</h2>
+                <p>Discover the services we offer to help your business succeed.</p>
+            </div>
+        </section>
+
+        <section id="career" class="section">
+            <div class="container">
+                <h2>Career Opportunities</h2>
+                <p>Join our team and embark on a rewarding career with Grim Tech.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Grim Tech. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
